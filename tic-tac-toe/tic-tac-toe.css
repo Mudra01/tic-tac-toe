@@ -1,0 +1,34 @@
+table {
+  border-collapse:collapse;
+}
+
+td {
+  background-color: black;
+  border: 3px solid white;
+  font-size:80px;
+  color:#ffffff;
+  border-radius: 10px 10px 10px 10px;
+}
+#turn{
+	font-size: 1.5em;
+  padding-bottom: 1em;
+
+}
+.bg {
+    /* The image used */
+    background-image: url("tic-tac-toe.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+	 display: flex;
+  justify-content: center;
+  color: red;
+  font-size :25px;
+}
